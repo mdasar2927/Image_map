@@ -133,12 +133,12 @@ Rameswaram Tourism
 
 # OUTPUT
 
-![alt text](../map/mapapp/static/mapout.png)
-![alt text](../map/mapapp/static/apjout.png)
-![alt text](../map/mapapp/static/islandout.png)
-![alt text](../map/mapapp/static/pambanout.png)
-![alt text](../map/mapapp/static/waterout.png)
-![alt text](../map/mapapp/static/templeout.png)
+![alt text](mapout.png)
+![alt text](apjout.png)
+![alt text](islandout.png)
+![alt text](pambanout.png)
+![alt text](templeout.png)
+![alt text](waterout.png)
 
 
 
@@ -147,4 +147,5 @@ Rameswaram Tourism
 
 # RESULT
 The program for implementing image maps using HTML is executed successfully.
+
 
