@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 # Ex04 Places Around Me
 # Date:26/09/2025
 # AIM
