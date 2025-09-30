@@ -27,10 +27,11 @@ Execute the programs and publish them.
 ```
 map.html
 
+{% load static %}
 <title>RAMANATHAPURAM MAP</title>
 <body>
     <center><h1>MOHAMED ASARUDEEN A (25005844)</h1>
-<img src="rmd.png" usemap="#image-map"></center>
+<img src="{% static 'rmd.png'%}" usemap="#image-map"></center>
 
 <map name="image-map">
     <area target="" alt="Pamban Bridge" title="Pamban Bridge" href="pamban.html" coords="8,397,273,390,259,459,32,480,5,432" shape="poly">
@@ -43,12 +44,13 @@ map.html
 
 apj.html
 
+{% load static %}
 <html>
     <head>
         <title>Dr.APJ Abdul Kalam Memorial</title>
     </head>
     <body bgcolor="purple">
-        <img src="apjimg.jpg" width="100%" height="50%">
+        <img src="{% static 'apjimg.jpg'%}" width="100%" height="50%">
        <center><h1>Dr.APJ Abdul Kalam Memorial</h1></center>
         <h4>The Dr. APJ Abdul Kalam Memorial is located at Pei Karumbu in Rameswaram, Tamil Nadu, where the former President of India and renowned scientist Dr. A.P.J. Abdul Kalam was laid to rest. The memorial was inaugurated in 2017 to honour his life and achievements. Built in a beautiful blend of Indian and Mughal architectural styles, it showcases his contributions to science, space research, and the nation’s development. The memorial displays his personal belongings, photographs, and models of rockets and missiles, inspiring visitors, especially students. It stands as a tribute to the “People’s President” who dedicated his life to education, science, and service to the country.</h4>
       
@@ -57,13 +59,14 @@ apj.html
 
 island.html
 
+{% load static %}
 <html>
     <head>
         <title>Kurushadai Theevu</title>
     </head>
 
     <body bgcolor="blue">
-        <img src="islandimg.jpeg" width="100%" height="50%"> 
+        <img src="{% static 'islandimg.jpeg'%}" width="100%" height="50%"> 
         <center>
         <h1>Kurushadai Theevu</h1> </center>
         <h4>Kurushadai Theevu is a small uninhabited island near Mandapam in Ramanathapuram district, Tamil Nadu. It lies in the Gulf of Mannar and is famous for its rich seagrass beds, which serve as breeding grounds for pearls, prawns, crabs, and many fish species. Because of this unique ecosystem, the island is often called the “Biological Paradise of the Gulf of Mannar.” It is part of the Gulf of Mannar Marine National Park and is protected to conserve its rare marine biodiversity</h4>
@@ -75,12 +78,13 @@ island.html
 
 pamban.html
 
+{% load static %}
 <html>
     <head>
         <title>Pamban Bridge</title>
     </head>
     <body bgcolor="orange">
-        <img src="pambanimg.jpeg" width="100%" height="50%">
+        <img src="{% static 'pambanimg.jpeg'%}" width="100%" height="50%">
         <center>
         <h1>Pamban Bridge</h1>
         </center>
@@ -91,12 +95,13 @@ pamban.html
 
 temple.html
 
+{% load static %}
 <html>
     <head>
         <title>Ramar Padam Temple</title>
     </head>
     <body bgcolor="pink">
-        <img src="templeimg.jpg" width="100%" height="50%">
+        <img src="{% static 'templeimg.jpg'%}" width="100%" height="50%">
         <center>
         <h1>Ramar Padam Temple</h1>
          </center>
@@ -107,12 +112,13 @@ temple.html
 
 water.html
 
+{% load static %}
 <html>
     <head>
         <title>Holy Island Water Sports</title>
     </head>
     <body bgcolor="orangr">
-        <img src="waterimg.jpg" width="100%" height="50%">
+        <img src="{% static 'waterimg.jpg'%}" width="100%" height="50%">
 
         <center>
         <h1>Holy Island Water Sports</h1>
