@@ -136,6 +136,41 @@ Rameswaram Tourism
        
     </body>
 </html>
+
+views.py
+
+from django.shortcuts import render
+
+
+def map(request):
+    return render(request,"map.html")
+def apj(request):
+    return render(request,"apj.html")
+def island(request):
+    return render(request,"island.html")
+def pamban(request):
+    return render(request,"pamban.html")
+def temple(request):
+    return render(request,"temple.html")
+def water(request):
+    return render(request,"water.html")
+
+urls.py
+
+from django.contrib import admin
+from django.urls import path
+from mapapp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('',views.map),
+    path('apj.html/',views.apj),
+    path('island.html/',views.island),
+    path('pamban.html/',views.pamban),
+    path('temple.html/',views.temple),
+    path('water.html/',views.water),
+]
+
 ```
 
 
